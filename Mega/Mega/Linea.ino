@@ -32,7 +32,7 @@ void linea(){
   resultados[4] = (sensor5[1] + sensor5[2])/2;
   resultados[5] = (sensor6[1] + sensor6[2])/2;
 
-
+ 
  
 
  for(int i = 0; i < 6; i++){

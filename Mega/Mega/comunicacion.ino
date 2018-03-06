@@ -29,7 +29,7 @@ void gol(){
 
       digitalWrite(MC1,HIGH);
       digitalWrite(MC2,LOW);
-      analogWrite(PWMC,90);
+      analogWrite(PWMC,93);
 
       digitalWrite(MB1,LOW);
       digitalWrite(MB2,LOW);
@@ -38,7 +38,7 @@ void gol(){
       
       break;
 
-     case 1:
+    /* case 1:
       digitalWrite(MA1,LOW);
       digitalWrite(MA2,HIGH);
       analogWrite(PWMA,240);
@@ -179,7 +179,7 @@ void gol(){
       digitalWrite(MB1,HIGH);
       digitalWrite(MB2,LOW);
       analogWrite(PWMB,80);
-      break;
+      break;*/
     
   }
   

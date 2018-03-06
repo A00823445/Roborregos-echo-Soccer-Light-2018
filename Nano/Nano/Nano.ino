@@ -19,5 +19,4 @@ void loop() {
   seccion = pelota(posicion, seccion);
   
   mandar();
-  delay(5);
 }

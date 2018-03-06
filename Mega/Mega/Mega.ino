@@ -24,9 +24,9 @@ const int MC2 = 37;
 const int EN_C = 30;
 const int PWMC = 4;
 
-int xa = 200;
-int xb = 200;
-int xc = 200;
+int xa = 150;
+int xb = 150;
+int xc = 150;
 //Fotorresistencias
 
 const int FR1 = A1;
@@ -100,9 +100,9 @@ void loop()
     
   }
   
-  gol();
+  //gol();
   linea();
-  acomodoMotor();
+  //acomodoMotor();
   
   
 }
